@@ -17,6 +17,12 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     fi
 fi
 
+# Update apt
+sudo apt update
+
+# Prereqs for neovim plugins
+sudo apt install gcc make ripgrep -y
+
 # Install neovim
 curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz
 sudo rm -rf /opt/nvim
@@ -33,6 +39,11 @@ echo 'alias uuu="cd ../../../"' >> ~/.bashrc
 
 # Install gh
 conda install gh --channel conda-forge -y
+
+# Install tmux
+sudo apt install tmux -y
+# There's an issue with ghostty's terminfo not proping since it's new
+echo 'export TERM="xterm-256color"' >> ~/.bashrc
 
 # init.lua
 cd ~/.config/

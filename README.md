@@ -2,6 +2,8 @@
 
 Personal configuartion files for machines.
 
+Currently just assumes a pure ubuntu box.
+
 TODOS
 
 [ ] Update the setup script so it works on macOS. Started by checking for brew but should ideally install brew (also other install cmds dont work)
