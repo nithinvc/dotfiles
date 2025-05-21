@@ -14,6 +14,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     else
         echo "Brew not found! Please install brew before running."
         exit 1
+    fi
 fi
 
 # Install neovim
@@ -39,5 +40,3 @@ git clone https://github.com/nithinvc/init.lua
 mv init.lua nvim
 cd nvim
 ./configure_tmux.sh
-
-
