@@ -32,7 +32,7 @@ echo 'alias uu="cd ../../"' >> ~/.bashrc
 echo 'alias uuu="cd ../../../"' >> ~/.bashrc
 
 # Install gh
-conda install gh --channel conda-forge
+conda install gh --channel conda-forge -y
 
 # init.lua
 cd ~/.config/
