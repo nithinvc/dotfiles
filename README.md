@@ -12,3 +12,4 @@ TODOS
 
 [ ] Install gh cli regardless of whether mamba is installed
 
+[ ] Right now, python dev packages are just installed with whatever pip bash returns. Should be a real installer

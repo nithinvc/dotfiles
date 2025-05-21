@@ -54,3 +54,6 @@ cd nvim
 
 
 source ~/.bashrc
+
+# Python environment setup (eventually to abstract out)
+pip install ipython ipdb gpustat ruff
