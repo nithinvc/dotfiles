@@ -51,3 +51,6 @@ git clone https://github.com/nithinvc/init.lua
 mv init.lua nvim
 cd nvim
 ./configure_tmux.sh
+
+
+source ~/.bashrc
