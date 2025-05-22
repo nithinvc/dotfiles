@@ -21,7 +21,7 @@ fi
 sudo apt update
 
 # Prereqs for neovim plugins
-sudo apt install gcc make ripgrep -y
+sudo apt install gcc make ripgrep graphviz -y
 
 # Install neovim
 curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz
@@ -56,4 +56,4 @@ cd nvim
 source ~/.bashrc
 
 # Python environment setup (eventually to abstract out)
-pip install ipython ipdb gpustat ruff
+pip install ipython ipdb gpustat ruff graphviz
