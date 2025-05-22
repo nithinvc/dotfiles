@@ -48,11 +48,9 @@ echo 'export TERM="xterm-256color"' >> ~/.bashrc
 echo 'alias update_term="export TERM=xterm-256color"' >> ~/.bashrc
 
 # init.lua
-cd ~/.config/
 git clone https://github.com/nithinvc/init.lua
-mv init.lua nvim
-cd nvim
-./configure_tmux.sh
+mv init.lua ~/.config/nvim
+~/.config/configure_tmux.sh
 
 
 source ~/.bashrc
