@@ -43,6 +43,7 @@ conda install gh --channel conda-forge -y
 # Install tmux
 sudo apt install tmux -y
 # There's an issue with ghostty's terminfo not proping since it's new
+# This actually is not a sufficient fix since you still need to source .bashrc
 echo 'export TERM="xterm-256color"' >> ~/.bashrc
 
 # init.lua
