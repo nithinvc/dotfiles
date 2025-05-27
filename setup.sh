@@ -66,3 +66,11 @@ mv init.lua ~/.config/nvim
 
 
 source ~/.bashrc
+
+# Python environment setup (eventually to abstract out)
+pip install ipython ipdb gpustat ruff graphviz
+pip install torch torchvision torchaudio
+pip install fire ruff open_clip_torch 
+
+# Need ffmpeg
+sudo apt install ffmpeg -y
