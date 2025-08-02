@@ -5,7 +5,7 @@
 sudo apt update
 
 # Prereqs for neovim plugins
-sudo apt install gcc make ripgrep graphviz htop -y
+sudo apt install gcc make ripgrep graphviz htop parallel -y
 
 # Install neovim
 curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz
