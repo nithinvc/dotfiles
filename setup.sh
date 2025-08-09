@@ -30,3 +30,6 @@ echo 'export TERM="xterm-256color"' >> ~/.bashrc
 echo 'alias update_term="export TERM=xterm-256color"' >> ~/.bashrc
 
 source ~/.bashrc
+
+# Git man pages
+sudo apt install git-man -y
